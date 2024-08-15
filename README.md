@@ -21,7 +21,7 @@ A web application that enables users to search for recipes from an extensive dat
 - **View Recipe Details:** Get detailed information about the recipe, including ingredients, cooking time, and servings.
 - **Adjust Serving Sizes:** Dynamically adjust ingredient quantities based on the number of servings.
 - **Bookmark Recipes:** Save your favorite recipes to the browser's local storage and access them anytime.
-- **Responsive Design:** Works on all screen sizes, from mobile to desktop.
+- **Responsive Design:** Works on desktop screen size.
 
 ## Installation
 
