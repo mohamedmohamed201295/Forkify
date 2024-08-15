@@ -122,13 +122,8 @@ const controlAddNewRecipe = async function (data) {
   }
 }
 
-<<<<<<< HEAD
-const greet = function () {
-  console.log('Welcome!')
-=======
 const greeting = function () {
   console.log(`Welcome to My Forkify`)
->>>>>>> 4b98f28 (new feature)
 }
 
 // controlRecipes()
@@ -140,11 +135,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination)
   recipeView.addHandlerUpdateServings(controlServings)
   addRecipeView.addHandlerUpload(controlAddNewRecipe)
-<<<<<<< HEAD
-  greet()
-=======
   greeting()
->>>>>>> 4b98f28 (new feature)
 }
 init()
 
