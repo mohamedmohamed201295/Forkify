@@ -5,7 +5,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist --no-optimize"
+    "build": "parcel build index.html --dist-dir ./dist --no-scope-hoist"
   },
   "author": "Mohamed Abdullah",
   "license": "ISC",
