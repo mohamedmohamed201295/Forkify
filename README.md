@@ -8,6 +8,7 @@ A recipe search and bookmarking application that allows users to search for reci
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -43,6 +44,10 @@ A web application that enables users to search for recipes from an extensive dat
 - **Search for a Recipe:** Enter keywords like "pasta" or "chicken" in the search bar and press enter.
 - **View a Recipe:** Click on any recipe from the search results to see detailed instructions.
 - **Bookmark a Recipe:** Click the bookmark icon to save the recipe to your favorites.
+
+## Deployment
+
+[**Live Demo**](https://momo-forkify.netlify.app/)
 
 ## Technologies Used
 
