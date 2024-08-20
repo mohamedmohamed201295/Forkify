@@ -10,12 +10,6 @@ import addRecipeView from './views/addRecipeView.js'
 import 'core-js/stable'
 import 'regenerator-runtime/runtime'
 
-// This is not js this is coming from parcel
-/*
-if (module.hot) {
-  module.hot.accept()
-}
-*/
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1)
@@ -122,10 +116,6 @@ const controlAddNewRecipe = async function (data) {
   }
 }
 
-const greeting = function () {
-  console.log(`Welcome to My Forkify`)
-}
-
 // controlRecipes()
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmark)
@@ -135,12 +125,5 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination)
   recipeView.addHandlerUpdateServings(controlServings)
   addRecipeView.addHandlerUpload(controlAddNewRecipe)
-  greeting()
 }
 init()
-
-// For development
-const clearBookmarks = function () {
-  localStorage.clear()
-}
-clearBookmarks()
