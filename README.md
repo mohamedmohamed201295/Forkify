@@ -47,7 +47,7 @@ A web application that enables users to search for recipes from an extensive dat
 
 ## Deployment
 
-[**Live Demo**](https://momo-forkify.netlify.app/)
+[**Live Demo**](https://momo-forkify.netlify.app/){:target="\_blank"}
 
 ## Technologies Used
 
